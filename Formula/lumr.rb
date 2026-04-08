@@ -1,4 +1,4 @@
-class LumrCli < Formula
+class Lumr < Formula
   desc "System intelligence for software teams."
   homepage "https://lumr.app"
   version "0.1.9"
