@@ -1,20 +1,20 @@
 class Lumr < Formula
   desc "System intelligence for software teams."
   homepage "https://lumr.app"
-  version "0.2.1"
+  version "0.2.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/lumrapp/lumr-cli/releases/download/v0.2.1/lumr-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "39cce4965b5e30642df773bafef3445330880c116d2bdba2e34026761c0ca98d"
+      url "https://github.com/lumrapp/lumr-cli/releases/download/v0.2.2/lumr-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "ad6f09fcb1d8dea1e12f2a0d827da815584a1cbd6fad009c9a58524ac2ecfc7a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/lumrapp/lumr-cli/releases/download/v0.2.1/lumr-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "2bf3d324aff8344a17033f50e72539fcdf71059f333b0b2fcec01bd63daa1cbc"
+      url "https://github.com/lumrapp/lumr-cli/releases/download/v0.2.2/lumr-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "d5ec4fee28aadca853f2a5e77ceef65344d414acd9130702a05a6182261e704a"
     end
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/lumrapp/lumr-cli/releases/download/v0.2.1/lumr-cli-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "dc097d793ab7912774b5c0f15766825e4891fc6c4ef6d61e58cc1ca859166715"
+    url "https://github.com/lumrapp/lumr-cli/releases/download/v0.2.2/lumr-cli-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "32bc5e985ad851524380a537100c029fef90bd86308c5cce888ff641c19b1290"
   end
   license "UNLICENSED"
 
